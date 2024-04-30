@@ -1,0 +1,28 @@
+{
+	"name": "josephscott/amulet",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.1",
+		"ext-curl": "*"
+	},
+	"require-dev": {
+		"ext-json": "*",
+		"friendsofphp/php-cs-fixer": "^3.52",
+		"phpstan/phpstan": "^1.10",
+		"pestphp/pest": "^2.34"
+	},
+	"autoload": {
+		"classmap": [
+			"src/josephscott/amulet/request.php",
+			"src/josephscott/amulet/response.php"
+		]
+	},
+	"config": {
+		"classmap-authoritative": true,
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	}
+}
