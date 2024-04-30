@@ -1,0 +1,13 @@
+# PHPUnit / Pest
+.phpunit.result.cache
+phpunit.xml
+
+# PHPStan
+phpstan.neon
+
+# Vendor Files
+vendor/*
+composer.lock
+
+# Test let overs
+tests/server/pid.txt
