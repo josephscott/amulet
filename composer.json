@@ -14,8 +14,8 @@
 	},
 	"autoload": {
 		"classmap": [
-			"src/josephscott/amulet/request.php",
-			"src/josephscott/amulet/response.php"
+			"src/josephscott/amulet.php",
+			"src/josephscott/amulet-response.php"
 		]
 	},
 	"config": {

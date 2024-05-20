@@ -2,7 +2,7 @@
 declare( strict_types = 1 );
 
 test( 'patch-curl: data', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$response = $http->patch(
 		url: 'http://127.0.0.1:7878/?method=patch',
 		data: [
@@ -19,7 +19,7 @@ test( 'patch-curl: data', function () {
 } );
 
 test( 'patch-php: data', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$http->default_options['using'] = 'php';
 	$response = $http->patch(
 		url: 'http://127.0.0.1:7878/?method=patch',

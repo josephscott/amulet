@@ -23,8 +23,8 @@ style: ## Fix any style issues
 lint: ## Check if the code is valid
 	@echo
 	@echo "--> Lint"
-	php -l src/josephscott/amulet/request.php
-	php -l src/josephscott/amulet/response.php
+	php -l src/josephscott/amulet.php
+	php -l src/josephscott/amulet-response.php
 	@echo
 
 .PHONY: analyze

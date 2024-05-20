@@ -2,7 +2,7 @@
 declare( strict_types = 1 );
 
 test( 'head-curl', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$response = $http->get( url: 'http://127.0.0.1:7878/' );
 
 	expect( $response->error )->toBe( false );
@@ -11,7 +11,7 @@ test( 'head-curl', function () {
 } );
 
 test( 'head-php', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$http->default_options['using'] = 'php';
 	$response = $http->get( url: 'http://127.0.0.1:7878/' );
 

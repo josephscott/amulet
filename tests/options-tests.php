@@ -2,7 +2,7 @@
 declare( strict_types = 1 );
 
 test( 'options-curl', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$response = $http->options( url: 'http://127.0.0.1:7878/?method=options' );
 
 	$data = json_decode( $response->body, associative: true );
@@ -13,7 +13,7 @@ test( 'options-curl', function () {
 } );
 
 test( 'options-php', function () {
-	$http = new JosephScott\Amulet\Request();
+	$http = new JosephScott\Amulet();
 	$http->default_options['using'] = 'php';
 	$response = $http->options( url: 'http://127.0.0.1:7878/?method=options' );
 
