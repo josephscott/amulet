@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 0.0.2 : ????
+## 0.0.2 : 2024-05-20
 - Reduce the namespace length, now called via `new \JosephScott\Amulet()`
 
 
