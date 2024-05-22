@@ -21,8 +21,6 @@
 	"config": {
 		"classmap-authoritative": true,
 		"optimize-autoloader": true,
-		"allow-plugins": {
-			"pestphp/pest-plugin": true
-		}
+		"allow-plugins": false
 	}
 }
