@@ -9,6 +9,7 @@ class Amulet {
 		'timeout' => 30,
 		'encoding' => 'gzip',
 	];
+
 	public array $default_headers = [
 		'Connection' => 'close',
 		'Accept' => '*/*',

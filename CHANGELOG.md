@@ -3,6 +3,7 @@
 
 ## ????
 - Disable composer plugins
+- Use JosephScott\PHPCSFixer_Config to generate php-cs-fixer config
 
 
 ## 0.0.2 : 2024-05-20

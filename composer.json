@@ -9,6 +9,7 @@
 	"require-dev": {
 		"ext-json": "*",
 		"friendsofphp/php-cs-fixer": "^3.52",
+		"josephscott/phpcsfixer-config": "^0.0.1",
 		"phpstan/phpstan": "^1.10",
 		"pestphp/pest": "^2.34"
 	},
